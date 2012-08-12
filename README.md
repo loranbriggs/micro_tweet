@@ -12,3 +12,6 @@ Then contact MicroTweet to start your own Twitter-verse today!<br><br><br>
    <li>Peer-to-peer help</li>
   </ul>
   </li>
+
+This web app includes tests for proper functionality.<br>
+Refer to file: <em>spec/requests/static_pages_spec.rb</em> for more details.
