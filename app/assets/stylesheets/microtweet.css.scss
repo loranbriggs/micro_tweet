@@ -32,24 +32,25 @@ h1, h3{
     padding-top: 9px;
     font-weight: bold;
     line-height: 1;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 8px #8CC84B solid;
+    small {
+        float: left;
+    }
+    ul {
+        float: right;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 10px;
+        }
+    }
 }
 
-footer small {
-    float: left;
-}
-
-footer ul {
-    float: right;
-    list-style: none;
-}
-
-footer ul li {
-    float: left;
-    margin-left: 10px;
-}
