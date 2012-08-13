@@ -14,4 +14,4 @@ Then contact MicroTweet to start your own Twitter-verse today!<br><br><br>
   </li>
 
 This web app includes tests for proper functionality.<br>
-Refer to file: <em>spec/requests/static_pages_spec.rb</em> for more details.
+Refer to <em>spec/requests/*_pages_spec.rb</em> for more details.
