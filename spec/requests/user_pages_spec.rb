@@ -9,4 +9,11 @@ describe "UserPages" do
         it { should have_selector('h1',     :text => 'Sign up') }
         it { should have_selector('title',  :text =>  full_title('Sign up')) }
     end
+
+    describe "profile page" do
+        before { visit user_path(user) }
+
+        it { should have_selector('h1',     :text => user.name) }
+        it { should have_selector('title',  :text =>  full_title(user.name)) }
+    end
 end
