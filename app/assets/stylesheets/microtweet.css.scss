@@ -55,5 +55,15 @@ footer {
 }
 
 .debug_dump {
-    background-color: #AAA;
+    background-color: #AAA
 }
+
+/* forms */
+#error_explanation {
+    color: #f55;
+    ul {
+        list-style: none;
+        margin: 0 0 18px 0;
+    }
+}
+
