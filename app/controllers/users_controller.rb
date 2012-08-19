@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     def create
         @user = User.new(params[:user])
         if @user.save
-            flash[:notice] = "Welcome " + @user.name + " to MicroTweet!"
+            flash[:notice] = "Welcome to MicroTweet " + @user.name + "!"
             redirect_to @user
         else
             render 'new'
