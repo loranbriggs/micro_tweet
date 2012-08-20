@@ -2,7 +2,7 @@
 <h1>Sign up</h1>
 
 <div class="row">
-    <div class="span6 offset3">
+    <div class="spanr3 offset3">
         <%= form_for(@user) do |f| %>
             <%= render 'shared/error_messages' %>
 
@@ -21,6 +21,18 @@
             <br>
             <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
         <% end %>
+    </div>
+    <div class="span3 offset1 well">
+        <h3>
+            <a href='http://www.gravatar.com'>
+                <img src='http://www.gravatar.com/avatar/00000000000000000000000000000000'/> Gravatar.com
+            </a>
+        </h3>
+        <p>
+            This site uses avatars from <a href='http://www.gravatar.com'>Gravatar.com</a>
+            Sign up there if you would like your avatar to follow you to this site. Dont
+            worry a default retro one will fill the place until you do.
+        </p>
     </div>
 </div>
 
